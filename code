@@ -1,0 +1,14 @@
+# 1. Initialize git (if not already initialized)
+git init -b main
+
+# 2. Add all project files
+git add .
+
+# 3. Create initial commit
+git commit -m "feat: complete Ambitious Creations storefront, creator dashboard, and promo reels"
+
+# 4. Link your remote GitHub repository (replace YOUR-USERNAME with your actual GitHub username)
+git remote add origin https://github.com/YOUR-USERNAME/ambitious-creations.git
+
+# 5. Push to GitHub
+git push -u origin main
